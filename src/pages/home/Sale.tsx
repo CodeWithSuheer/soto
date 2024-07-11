@@ -101,7 +101,7 @@ const Sale = () => {
 
   return (
     <>
-      <div className="sm:px-10 px-4 pt-10 sm:pt-16 pb-10 w-full min-h-screen">
+      <div className="sm:px-10 px-4 pt-10 sm:pt-16 pb-10 w-full">
         {/* ----------- HEADER ----------- */}
         <div className=" header mb-6 text-black flex justify-between items-center w-full">
           <h2 className="text-md sm:text-lg font-normal text-start max-w-2xl">
@@ -122,7 +122,7 @@ const Sale = () => {
                   key={data?.id}
                   className="group block overflow-hidden px-0.5"
                 >
-                  <div className="relative h-[390px] sm:h-[480px]">
+                  <div className="relative h-[480px] sm:h-[480px]">
                     <img
                       alt="product_image1"
                       className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"

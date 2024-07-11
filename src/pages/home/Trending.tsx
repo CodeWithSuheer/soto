@@ -50,10 +50,10 @@ const Trending = () => {
                 key={data?.id}
                 className="group block overflow-hidden px-0.5"
               >
-                <div className="relative h-[390px] sm:h-[480px]">
+                <div className="relative h-[480px] sm:h-[480px]">
                   <img
                     alt="product_image1"
-                    className="absolute inset-0 h-full w-full object-contain opacity-100 group-hover:opacity-0"
+                    className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
                     src={data?.img1}
                   />
                   <img
