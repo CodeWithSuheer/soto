@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
           loop
           muted
         />
-        <div className="relative z-10 sm:px-10 px-4 flex justify-start items-center min-h-[90vh] sm:min-h-[75vh]">
+        <div className="relative z-10 sm:px-10 px-4 flex justify-start items-center min-h-[100vh] sm:min-h-[75vh]">
           <div className="content pt-20 sm:pt-40 text-white">
             <h2 className="mb-8 text-4xl sm:text-5xl font-medium sm:font-normal text-start max-w-2xl">
               Up to 50% Off Select Styles Summer Sale
